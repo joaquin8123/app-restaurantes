@@ -25,8 +25,8 @@ _Proyecto completo desarrollado con React Native. La app cuenta con un sistema d
 
 ## Vista Previa de la App:
 
-![Demo Final](Screenshots/1.jpg)
+![Demo Final](Screenshots/1.JPG)
 
-![Demo Final](Screenshots/2.jpg)
+![Demo Final](Screenshots/2.JPG)
 
-![Demo Final](Screenshots/3.jpg)
+![Demo Final](Screenshots/3.JPG)
