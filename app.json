@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "app-restaurante",
-    "slug": "app-restaurante",
-    "version": "1.0.0",
+    "name": "app-restaurantes",
+    "slug": "app-restaurantes",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,20 +14,26 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "app-restaurantes",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCl35awgvcdHhJUeujhwoNZBm-BZCZZ164"
+        }
+      },
+      "permissions": [
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "description": ""
   }
 }
